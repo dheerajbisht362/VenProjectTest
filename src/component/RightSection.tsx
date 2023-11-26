@@ -1,4 +1,4 @@
-function RightSection({ isAdmin }) {
+function RightSection({ isAdmin}: {isAdmin:boolean}) {
   return (
     <>
       <div className="p-4 m-auto rounded-2xl">

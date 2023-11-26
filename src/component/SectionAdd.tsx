@@ -1,4 +1,4 @@
-function SectionAdd({isAdmin, imgSrc, headingText, subText}) {
+function SectionAdd({isAdmin, imgSrc, headingText, subText}:{isAdmin:boolean; imgSrc:string; headingText:string; subText:string}) {
 
   return (
     <div className="flex my-4">

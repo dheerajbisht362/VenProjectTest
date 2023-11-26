@@ -1,4 +1,4 @@
-function FeatureSection({isAdmin}) {
+function FeatureSection({isAdmin}:{isAdmin:boolean}) {
     return (
       <>
         <div className="p-4 rounded-sm bg-white">
