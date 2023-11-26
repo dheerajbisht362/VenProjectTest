@@ -2,12 +2,12 @@ function SectionAdd({isAdmin, imgSrc, headingText, subText}:{isAdmin:boolean; im
 
   return (
     <div className="flex my-4">
-        <div className="w-10 ">
+        <div className="w-10 mx-4 ">
             <img src={imgSrc} />
         </div>
         <div>
             <div contentEditable={isAdmin} className="font-bold text-xl" >{headingText}</div>
-            <div contentEditable={isAdmin}>{subText}</div>
+            <div contentEditable={isAdmin} className="text-gray-700">{subText}</div>
         </div>
     </div>
   )
